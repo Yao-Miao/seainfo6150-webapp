@@ -4,15 +4,35 @@ import HTMLText from "../HTMLText/HTMLText";
 const DynamicArticle = (props) => {
   return (
     <article>
-      {/* this is an example of how you insert props into a react component */}
-      <div>
+      <header>
         <h1>{props.article.title}</h1>
-        <p> <i> by {props.article.author} ({props.article.authorEmail}) </i></p>
-        <p>{props.article.displayDate}</p>
-        <img src={props.article.image._url} width={props.article.image._width} height={props.article.image._height} />
-        <HTMLText text={props.article.text} />
-        <p><strong>timeStamp: </strong>{props.article.timeStamp}</p>
-      </div>
+        <address>
+          <i>
+            by {props.article.author} (
+            <a href={props.article.authorEmail}>
+              {" "}
+              {props.article.authorEmail}{" "}
+            </a>
+            ){" "}
+          </i>
+        </address>
+
+        <time dateTime={props.article.displayDate}>
+          {props.article.displayDate}
+        </time>
+      </header>
+      <img
+        src={props.article.image._url}
+        width={props.article.image._width}
+        height={props.article.image._height}
+      />
+      <p>
+        <strong>timeStamp: </strong>{" "}
+        <time dateTime={props.article.timeStamp}>
+          {props.article.timeStamp}
+        </time>
+      </p>
+      <HTMLText text={props.article.text} />
     </article>
   );
 };
