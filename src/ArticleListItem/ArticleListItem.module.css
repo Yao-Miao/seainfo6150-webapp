@@ -1,0 +1,24 @@
+.Item {
+    background: linear-gradient(to right,rgb(170,73,77), rgb(235,235,235) 15%);
+    box-shadow: 15px 15px 5px rgb(103,103,103);
+    border: solid;
+    border-color: red;
+    border-width:2px; 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.Header{
+    font-size: 25px;
+    color: rgb(195, 0, 0);
+}
+
+.Time{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Content{
+    font-size: 20px;
+}

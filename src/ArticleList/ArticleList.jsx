@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleListItem from "../ArticleListItem/ArticleListItem";
+import classes from "./ArticleList.module.css";
 
 const ArticleList = (props) => {
   console.log("test2");
@@ -21,8 +22,8 @@ const ArticleList = (props) => {
   });
 
   return (
-    <div>
-      <ul>{articleListSummary}</ul>
+    <div className={classes.List}>
+      {articleListSummary}
     </div>
   );
 };

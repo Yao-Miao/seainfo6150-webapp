@@ -1,0 +1,17 @@
+.Button {
+    background-color: rgb(195, 0, 0);
+    border: outset;
+    border-width:3px; 
+    border-radius: 15px;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-top-color: grey;
+    border-left-color: grey;
+    width: 120px;
+    height: 60px;
+    color: white;
+    font: inherit;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
