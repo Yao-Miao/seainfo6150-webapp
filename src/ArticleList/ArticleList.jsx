@@ -5,11 +5,6 @@ import classes from "./ArticleList.module.css";
 const ArticleList = (props) => {
   console.log("test2");
   console.log(props.articles);
-  /*const articleListSummary = props.articles.map((item) =>{
-      return (
-        <ArticleListItem article = {item}></ArticleListItem>
-      )
-  } );*/
 
   //add key to list
   const articleListSummary = Object.keys(props.articles).map((key) => {

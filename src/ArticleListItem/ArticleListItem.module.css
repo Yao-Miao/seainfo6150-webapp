@@ -1,4 +1,6 @@
 .Item {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(to right,rgb(170,73,77), rgb(235,235,235) 15%);
     box-shadow: 15px 15px 5px rgb(103,103,103);
     border: solid;
@@ -6,11 +8,20 @@
     border-width:2px; 
     border-radius: 15px;
     padding: 10px;
-    margin: 40px;
+    margin: 30px;
+}
+
+.Top{
+    flex: 75%;
+}
+.Bottom{
+    align-items: center;
+    flex: 25%;
 }
 
 .Header{
     font-size: 25px;
+    text-decoration: underline;
     color: rgb(195, 0, 0);
 }
 

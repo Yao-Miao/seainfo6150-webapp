@@ -47,8 +47,13 @@ const ArticleListItem = (props) => {
 
   return (
     <div className={classes.Item}>
-      {articleContent}
-      <ArticleTextToggleButton buttonText={buttonText} onClick= {handleButtonClicked}/>
+      <div className={classes.Top}>
+        {articleContent}
+      </div>
+      <div className={classes.Bottom}>
+        <ArticleTextToggleButton buttonText={buttonText} onClick= {handleButtonClicked}/>
+      </div>
+      
     </div>
     
     

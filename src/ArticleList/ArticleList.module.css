@@ -1,4 +1,6 @@
 .List {
+    display: grid;
+    grid-template-columns: auto auto auto;
     background:rgb(142,142,142);
     border: dashed;
     border-color: black;
