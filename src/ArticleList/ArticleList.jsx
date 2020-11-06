@@ -3,9 +3,7 @@ import ArticleListItem from "../ArticleListItem/ArticleListItem";
 import classes from "./ArticleList.module.css";
 
 const ArticleList = (props) => {
-  console.log("test2");
-  console.log(props.articles);
-
+  
   //add key to list
   const articleListSummary = Object.keys(props.articles).map((key) => {
     return (

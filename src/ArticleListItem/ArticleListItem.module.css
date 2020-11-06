@@ -34,3 +34,20 @@
     font-size: 20px;
 }
 
+@media only screen and (max-width: 768px){
+    .Item{
+        margin: 15px;
+    }
+
+    .Header{
+        font-size: 13px;
+    }
+
+    .Content{
+        font-size: 13px;
+    }
+    .Time{
+        font-weight: bold;
+        font-size: 13px;
+    }
+}

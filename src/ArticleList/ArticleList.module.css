@@ -10,3 +10,9 @@
     box-shadow: 0 0 10px 10px rgb(236,142,147);
     margin: 30px;
 }
+@media only screen and (max-width: 768px){
+    .List{
+        grid-template-columns: auto;
+        margin: 0px;
+    }
+}

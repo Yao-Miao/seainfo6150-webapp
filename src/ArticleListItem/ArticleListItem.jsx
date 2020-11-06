@@ -51,7 +51,7 @@ const ArticleListItem = (props) => {
         {articleContent}
       </div>
       <div className={classes.Bottom}>
-        <ArticleTextToggleButton buttonText={buttonText} onClick= {handleButtonClicked}/>
+        <ArticleTextToggleButton buttonText={buttonText} onClick= {() => handleButtonClicked()}/>
       </div>
       
     </div>
