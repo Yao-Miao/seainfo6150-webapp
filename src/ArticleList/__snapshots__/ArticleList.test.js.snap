@@ -11,6 +11,11 @@ exports[`ArticleList tests renders correctly 1`] = `
       <div
         class="Top"
       >
+        <img
+          alt="The Statue of Liberty's torch heads to new museum"
+          class="Image"
+          src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+        />
         <article>
           <header
             class="Header"
@@ -37,6 +42,11 @@ exports[`ArticleList tests renders correctly 1`] = `
       <div
         class="Top"
       >
+        <img
+          alt="The Statue of Liberty's torch heads to new museum"
+          class="Image"
+          src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+        />
         <article>
           <header
             class="Header"
